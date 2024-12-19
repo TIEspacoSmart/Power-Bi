@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"BASE_DADOS\",\"GR\",\"Medidas\"]"
+        "value": "[\"BASE_DADOS\",\"GR\",\"Medidas\",\"Erros em BASE_DADOS\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -2680,6 +2680,54 @@
       "returnErrorValuesAsNull": true
     },
     "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Erros em BASE_DADOS",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          }
+        ],
+        "expression": [
+          "let",
+          "Fonte = BASE_DADOS,",
+          "  #\"Incompatibilidades de Tipo Detectadas\" = let",
+          "    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Fonte, Table.ColumnsOfType(Fonte, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),",
+          "    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),",
+          "    fieldNames = Record.FieldNames(recordTypeFields),",
+          "    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),",
+          "    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = \"O tipo do valor não corresponde ao tipo da coluna.\", Detail = v], fieldTypes{i}})",
+          "in",
+          "    Table.TransformColumns(Fonte, pairs),",
+          "  #\"Índice Adicionado\" = Table.AddIndexColumn(#\"Incompatibilidades de Tipo Detectadas\", \"Número da Linha\" ,1),",
+          "  #\"Erros Mantidos\" = Table.SelectRowsWithErrors(#\"Índice Adicionado\", {\"MÊS/ANO\", \"RESPONSAVEL\", \"SETOR\", \"UNIDADE\", \"ANALITICA\", \"DESCANALITICA\", \"CENTRODECUSTO\", \"TIPOCENTRODECUSTO\", \"ORCAMENTO\", \"LANCADO\", \"GASTOESPECIFICO\", \"PROGRAMADO\", \"SALDO\", \"TOTAL_REALIZADO\", \"DIFERENCA\", \"CONCAT\", \"ANALITICA - Copiar\", \"DESCANALITICA - Copiar\", \"CONCAT_ANALITICA\"}),",
+          "  #\"Colunas Reordenadas\" = Table.ReorderColumns(#\"Erros Mantidos\", {\"Número da Linha\", \"MÊS/ANO\", \"RESPONSAVEL\", \"SETOR\", \"UNIDADE\", \"ANALITICA\", \"DESCANALITICA\", \"CENTRODECUSTO\", \"TIPOCENTRODECUSTO\", \"ORCAMENTO\", \"LANCADO\", \"GASTOESPECIFICO\", \"PROGRAMADO\", \"SALDO\", \"TOTAL_REALIZADO\", \"DIFERENCA\", \"CONCAT\", \"ANALITICA - Copiar\", \"DESCANALITICA - Copiar\", \"CONCAT_ANALITICA\"}),",
+          "    ORCAMENTO = #\"Colunas Reordenadas\"{0}[ORCAMENTO]",
+          "in",
+          "  ORCAMENTO"
+        ],
+        "kind": "m",
+        "lineageTag": "3670d198-2f28-4e6e-9be8-c1a8f34bca58",
+        "queryGroup": "Erros na Consulta - 19/12/2024 16:11:31"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "description": "Erros nas consultas que foram carregadas em 19/12/2024 16:11:31.",
+        "folder": "Erros na Consulta - 19/12/2024 16:11:31"
+      }
+    ],
     "relationships": [
       {
         "name": "f23c8852-b41a-4d7a-9a93-a61a45599bb3",
@@ -2710,6 +2758,18 @@
         "fromTable": "CALENDARIO",
         "toColumn": "ID",
         "toTable": "tEixo"
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "c7d3a75c82424f8fb7a3d6c37c39c544"
+          }
+        ],
+        "modelPermission": "read"
       }
     ],
     "sourceQueryCulture": "pt-BR",
