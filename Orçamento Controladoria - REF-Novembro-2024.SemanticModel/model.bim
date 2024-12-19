@@ -1,0 +1,4834 @@
+{
+  "compatibilityLevel": 1601,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"BASE_DADOS\",\"GR\",\"Medidas\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "base_dado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "base dado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "BASE_DADOS": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dado": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "base_dado.ANALITICA__copiar": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "ANALITICA - Copiar"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ANALITICA - copiar": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ANALITICA copiar": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "base_dado.DESCANALITICA__copiar": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "DESCANALITICA - Copiar"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "DESCANALITICA - copiar": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DESCANALITICA copiar": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "base_dado.analitica": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "ANALITICA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "analitica": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.centrodecusto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "CENTRODECUSTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "centrodecusto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.concat": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "CONCAT"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "concat": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.concat_analitica": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "CONCAT_ANALITICA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "concat analitica": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CONCAT_ANALITICA": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Analítica": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_dado.descanalitica": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "DESCANALITICA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "descanalitica": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.diferenca": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "DIFERENCA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "diferenca": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.diff": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "DIFF"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "diff": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.diffok": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "DIFFOK"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "diffok": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.filtro_go": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "FILTRO_GO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filtro go": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FILTRO_GO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "filtro energy": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "filtro liveliness": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "filtro enthusiasm": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "filtro verve": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "filtro vigor": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "filtro drive": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "filtro spirit": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "filtro try": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "filtro attempt": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "filtro turn": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "base_dado.gastoespecifico": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "GASTOESPECIFICO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "gastoespecifico": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.lancado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "LANCADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lancado": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.loja_agrupado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "LOJA_AGRUPADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "loja agrupado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "LOJA_AGRUPADO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Lojas": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_dado.mês_ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "MÊS/ANO"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mês/ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mê/ano": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "mês": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mê": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
+                    }
+                  },
+                  {
+                    "mês ano": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mê ano": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
+                    }
+                  }
+                ]
+              },
+              "base_dado.orcamento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "ORCAMENTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "orcamento": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.programado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "PROGRAMADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "programado": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.responsavel": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "RESPONSAVEL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "responsavel": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.saldo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "SALDO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "saldo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.tipo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "Tipo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.total_realizado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "TOTAL_REALIZADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total realizado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TOTAL_REALIZADO": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aggregate realizado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall realizado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "base_dado.valor_2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Valor 2"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor 2": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.valor_3": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Valor 3"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor 3": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dado.valor_final": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Valor Final"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor final": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "final": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "concluding": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "closing": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "ultimate": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "finishing": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "absolute": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "valor decider": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.451
+                    }
+                  }
+                ]
+              },
+              "base_dado.valor_inicial": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Valor Inicial"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor inicial": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "base_dados.perc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "PERC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "perc": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Consumido": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_dados.setor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "SETOR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "setor": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Filial": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_dados.tipocentrodecusto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "TIPOCENTRODECUSTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipocentrodecusto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Tipo de Centro de Custo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Tipo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_dados.total_realizado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Total Realizado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total realizado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate realizado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall realizado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Realizado": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_dados.unidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "BASE_DADOS",
+                    "ConceptualProperty": "UNIDADE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "unidade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Unidade sem Lojas": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "calendario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CALENDARIO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "calendario": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calendario.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CALENDARIO",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "calendario.date.variation.hierarquia_de_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CALENDARIO",
+                    "Hierarchy": "Hierarquia de datas",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hierarquia de data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarquia de information": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de fact": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de info": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de statistic": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de document": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de figure": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de record": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "calendario.date.variation.hierarquia_de_data.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CALENDARIO",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Ano",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment ano": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period ano": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "calendario.date.variation.hierarquia_de_data.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CALENDARIO",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Dia",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment dia": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period dia": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "calendario.date.variation.hierarquia_de_data.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CALENDARIO",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Mês",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment mê": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period mê": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "calendario.date.variation.hierarquia_de_data.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CALENDARIO",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment trimestre": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period trimestre": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "base_dado_has_ANALITICA__copiar": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.ANALITICA__copiar"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.ANALITICA__copiar": {
+                    "Target": {
+                      "Entity": "base_dado.ANALITICA__copiar"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_DESCANALITICA__copiar": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.DESCANALITICA__copiar"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.DESCANALITICA__copiar": {
+                    "Target": {
+                      "Entity": "base_dado.DESCANALITICA__copiar"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_analitica": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.analitica"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.analitica": {
+                    "Target": {
+                      "Entity": "base_dado.analitica"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_base_dados_perc": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dados.perc"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dados.perc": {
+                    "Target": {
+                      "Entity": "base_dados.perc"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_base_dados_setor": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dados.setor"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dados.setor": {
+                    "Target": {
+                      "Entity": "base_dados.setor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_base_dados_tipocentrodecusto": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dados.tipocentrodecusto"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dados.tipocentrodecusto": {
+                    "Target": {
+                      "Entity": "base_dados.tipocentrodecusto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_base_dados_total_realizado": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dados.total_realizado"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dados.total_realizado": {
+                    "Target": {
+                      "Entity": "base_dados.total_realizado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_base_dados_unidade": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dados.unidade"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dados.unidade": {
+                    "Target": {
+                      "Entity": "base_dados.unidade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_calendario": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_centrodecusto": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.centrodecusto"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.centrodecusto": {
+                    "Target": {
+                      "Entity": "base_dado.centrodecusto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_concat": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.concat"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.concat": {
+                    "Target": {
+                      "Entity": "base_dado.concat"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_concat_analitica": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.concat_analitica"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.concat_analitica": {
+                    "Target": {
+                      "Entity": "base_dado.concat_analitica"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_descanalitica": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.descanalitica"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.descanalitica": {
+                    "Target": {
+                      "Entity": "base_dado.descanalitica"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_diferenca": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.diferenca"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.diferenca": {
+                    "Target": {
+                      "Entity": "base_dado.diferenca"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_diff": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.diff"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.diff": {
+                    "Target": {
+                      "Entity": "base_dado.diff"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_diffok": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.diffok"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.diffok": {
+                    "Target": {
+                      "Entity": "base_dado.diffok"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_filtro_go": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.filtro_go"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.filtro_go": {
+                    "Target": {
+                      "Entity": "base_dado.filtro_go"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_gastoespecifico": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.gastoespecifico"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.gastoespecifico": {
+                    "Target": {
+                      "Entity": "base_dado.gastoespecifico"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_lancado": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.lancado"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.lancado": {
+                    "Target": {
+                      "Entity": "base_dado.lancado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_loja_agrupado": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.loja_agrupado"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.loja_agrupado": {
+                    "Target": {
+                      "Entity": "base_dado.loja_agrupado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_mes_ant": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.mes_ant"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.mes_ant": {
+                    "Target": {
+                      "Entity": "base_dado.mes_ant"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_mes_anterior": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.mes_anterior"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.mes_anterior": {
+                    "Target": {
+                      "Entity": "base_dado.mes_anterior"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_mês_ano": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.mês_ano"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.mês_ano": {
+                    "Target": {
+                      "Entity": "base_dado.mês_ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_orcamento": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.orcamento"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.orcamento": {
+                    "Target": {
+                      "Entity": "base_dado.orcamento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_programado": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.programado"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.programado": {
+                    "Target": {
+                      "Entity": "base_dado.programado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_responsavel": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.responsavel"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.responsavel": {
+                    "Target": {
+                      "Entity": "base_dado.responsavel"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_saldo": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.saldo"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.saldo": {
+                    "Target": {
+                      "Entity": "base_dado.saldo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_tipo": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.tipo"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.tipo": {
+                    "Target": {
+                      "Entity": "base_dado.tipo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_total_realizado": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.total_realizado"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.total_realizado": {
+                    "Target": {
+                      "Entity": "base_dado.total_realizado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_valor_2": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.valor_2"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.valor_2": {
+                    "Target": {
+                      "Entity": "base_dado.valor_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_valor_3": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.valor_3"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.valor_3": {
+                    "Target": {
+                      "Entity": "base_dado.valor_3"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_valor_final": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.valor_final"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.valor_final": {
+                    "Target": {
+                      "Entity": "base_dado.valor_final"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "base_dado_has_valor_inicial": {
+                "Binding": {
+                  "ConceptualEntity": "BASE_DADOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "base_dado.valor_inicial"
+                      },
+                      "Subject": {
+                        "Role": "base_dado"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "base_dado": {
+                    "Target": {
+                      "Entity": "base_dado"
+                    }
+                  },
+                  "base_dado.valor_inicial": {
+                    "Target": {
+                      "Entity": "base_dado.valor_inicial"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_has_variation_hierarquia_de_data": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date": {
+                    "Target": {
+                      "Entity": "calendario.date"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_variation_hierarquia_de_data_ano_has_calendario_date_variation_hierarquia_de_data_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.ano"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.ano"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.ano"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_variation_hierarquia_de_data_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_variation_hierarquia_de_data_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_variation_hierarquia_de_data_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_variation_hierarquia_de_data_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_variation_hierarquia_de_data_mê_has_calendario_date_variation_hierarquia_de_data_dia": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.dia"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_date_variation_hierarquia_de_data_trimestre_has_calendario_date_variation_hierarquia_de_data_mê": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.date.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.date.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.mê"
+                    }
+                  },
+                  "calendario.date.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.date.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "CALENDARIO"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.date"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.date": {
+                    "Target": {
+                      "Entity": "calendario.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "f23c8852-b41a-4d7a-9a93-a61a45599bb3",
+        "fromColumn": "FILTRO_GO",
+        "fromTable": "BASE_DADOS",
+        "toColumn": "GR",
+        "toTable": "GR"
+      },
+      {
+        "name": "ce5e0ac5-e3b6-4b9e-a456-0c2546350015",
+        "fromColumn": "Date",
+        "fromTable": "CALENDARIO",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_3a042f3c-093f-41c8-86e6-66a42eb72552"
+      },
+      {
+        "name": "82454b71-8448-41f0-a518-c9c7cf81886e",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "MÊS/ANO",
+        "fromTable": "BASE_DADOS",
+        "toColumn": "Date",
+        "toTable": "CALENDARIO"
+      },
+      {
+        "name": "2084618c-9f79-1ec9-4811-ffa13e3c7fab",
+        "fromColumn": "Número do Mês",
+        "fromTable": "CALENDARIO",
+        "toColumn": "ID",
+        "toTable": "tEixo"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "DateTableTemplate_7070c298-e89a-4914-ac25-9e837b80caec",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "8dfdcbf3-d5af-45c5-88ee-4197dab8b537",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "0b3dd7a2-5f51-44af-b686-510a5c76c9f4",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9d2decc1-87c9-4390-8ddb-2d99f4cdadf9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "c3e89d81-024f-470d-aac0-7e4859d9ec5b",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "6e7e1f4c-6c40-4cb1-9282-3908fae62eb5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "e218deb4-e6f3-4ade-acc4-db6c799a99af",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "99c1f0e8-f5d5-406b-bc0a-71d59b1681ad",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "6edd9e1c-b9cd-48ff-9921-3b792e1c0a76",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "e4b41b69-bf0c-4663-9cc8-f018390205b0",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "c6e3d6fc-9f74-484c-84a6-9723d623c661",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "90d02a48-bd54-4f54-8d8c-097e165e26db",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "1b27253c-11b4-46d5-82ad-e18bcb64ef42"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "6ffb52a6-8af6-4235-98d0-2abdb1778e33",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_7070c298-e89a-4914-ac25-9e837b80caec-f0816e08-a67f-4ef0-8499-bee35c88aa34",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BASE_DADOS",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          }
+        ],
+        "columns": [
+          {
+            "name": "MÊS/ANO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm",
+            "lineageTag": "082a5e5f-e5bc-4228-b640-fbf281686f40",
+            "sourceColumn": "MÊS/ANO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RESPONSAVEL",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eca30d73-f7a7-4802-b63f-365ee8876420",
+            "sourceColumn": "RESPONSAVEL",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SETOR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "357c4214-832e-4e3c-aaef-1fb8a2e0d37f",
+            "sourceColumn": "SETOR",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UNIDADE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5b4ecc7d-3d56-4726-b1f0-93c06572e13d",
+            "sourceColumn": "UNIDADE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ANALITICA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5372280f-80b9-4cce-bf00-2699a1a841a4",
+            "sourceColumn": "ANALITICA",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DESCANALITICA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "91b0057b-eb0a-4bf1-8c71-7d74a95083a4",
+            "sourceColumn": "DESCANALITICA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CENTRODECUSTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0",
+            "lineageTag": "c9d49491-35cf-4bc1-8268-6de56023e14f",
+            "sourceColumn": "CENTRODECUSTO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TIPOCENTRODECUSTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d36cec1c-7e92-40d6-ba4b-714544e21e5d",
+            "sourceColumn": "TIPOCENTRODECUSTO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ORCAMENTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "f7be7336-801e-430a-a370-a93708dfaf3f",
+            "sourceColumn": "ORCAMENTO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LANCADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "598bac68-b851-4631-b2bf-a85f90f0a246",
+            "sourceColumn": "LANCADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "GASTOESPECIFICO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "f652b508-ea5b-4dfa-bf36-076bacda3c44",
+            "sourceColumn": "GASTOESPECIFICO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PROGRAMADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f25a305a-2b34-4f48-8359-11a51e6e7e8a",
+            "sourceColumn": "PROGRAMADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SALDO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c2a70459-c2bf-4037-bd28-b9c7c0b0ead2",
+            "sourceColumn": "SALDO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tipo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "        BASE_DADOS[UNIDADE],",
+              "        \"LOJA\",\"Loja\",",
+              "        \"Unidades sem Loja\")",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "d54d463e-58d2-4e04-bf23-90be207c158a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "DIFF",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "([R$ ORÇADO] - [Total Realizado]) * -1",
+            "isDataTypeInferred": true,
+            "lineageTag": "065fc116-9f70-470d-a42b-a000ebbceb99",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "LOJA_AGRUPADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "        BASE_DADOS[SETOR],",
+              "        \"CURITIBA\",\"CURITIBA\",",
+              "        \"PINHAIS\",\"CURITIBA\",",
+              "        \"PINHAIS CD\",\"CURITIBA\",",
+              "        \"BRASILIA ATACADO\",\"BRASILIA\",",
+              "        BASE_DADOS[SETOR])"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "14eedc0d-48fc-43b1-991e-e472e3f6667f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "FILTRO_GO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "                    BASE_DADOS[LOJA_AGRUPADO],",
+              "                    \"PONTA GROSSA\",\"LUCIANO RODRIGUES\",",
+              "                    \"JOINVILLE\",\"MAURICIO FERNANDES\",",
+              "                    \"SÃO PAULO\",\"PAULO ROGERIO\",",
+              "                    \"LONDRINA\",\"LUCIANO RODRIGUES\",",
+              "                    \"FLORIANOPOLIS\",\"MAURICIO FERNANDES\",",
+              "                    \"PINHAIS\",\"LUCIANO RODRIGUES\",",
+              "                    \"SOROCABA\",\"PAULO ROGERIO\",",
+              "                    \"ITAJAI\",\"MAURICIO FERNANDES\",",
+              "                    \"RIBEIRAO PRETO\",\"PAULO ROGERIO\",",
+              "                    \"MARINGA\",\"LUCIANO RODRIGUES\",",
+              "                    \"PORTO ALEGRE\",\"MAURICIO FERNANDES\",",
+              "                    \"BAURU\",\"PAULO ROGERIO\",",
+              "                    \"SJ DOS CAMPOS\",\"PAULO ROGERIO\",",
+              "                    \"CURITIBA\",\"LUCIANO RODRIGUES\",",
+              "                    \"CASCAVEL\",\"LUCIANO RODRIGUES\",",
+              "                    \"FOZ\",\"LUCIANO RODRIGUES\",",
+              "                    \"GOIANIA\",\"CONRAD RIBAS\",",
+              "                    \"CUIABA\",\"CONRAD RIBAS\",",
+              "                    \"CAMPO GRANDE\",\"CONRAD RIBAS\",",
+              "                    \"BRASILIA\",\"CONRAD RIBAS\",",
+              "                    \"BH\",\"CONRAD RIBAS\",",
+              "                    \"UBERLANDIA\",\"CONRAD RIBAS\",",
+              "                    \"RIO PRETO\",\"PAULO ROGERIO\",",
+              "                    \"SALVADOR\",\"DANIEL RAMOS\",",
+              "                    \"RECIFE\",\"DANIEL RAMOS\",",
+              "                    \"CHAPECO\",\"MAURICIO FERNANDES\",",
+              "                    \"PELOTAS\",\"MAURICIO FERNANDES\",",
+              "                    \"PASSO FUNDO\",\"MAURICIO FERNANDES\",",
+              "                    \"CAMPINAS\",\"PAULO ROGERIO\",",
+              "                    \"MACEIO\",\"DANIEL RAMOS\",",
+              "                    \"SINOP\",\"CONRAD RIBAS\",",
+              "                    \"DOURADOS\",\"CONRAD RIBAS\",",
+              "                    \"VITORIA\",\"DANIEL RAMOS\",",
+              "                    \"ASUNCION\",\"LUCIANO RODRIGUES\",",
+              "                    \"ALPHAVILLE\",\"PAULO ROGERIO\",",
+              "                    \"GRAMADO\",\"MAURICIO FERNANDES\",",
+              "                    \"BRASILIA ATACADO\",\"CONRAD RIBAS\",",
+              "                    \"SEM GR\"",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "8282e11c-2d70-4054-abe0-22c1394af72f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "TOTAL_REALIZADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "72e2d799-8659-4170-bfd6-41b0cc797031",
+            "sourceColumn": "TOTAL_REALIZADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DIFERENCA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "baa5692e-e041-47b9-9926-090ffd6132f1",
+            "sourceColumn": "DIFERENCA",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CONCAT",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c376d011-67e5-41ac-b387-1ce1cc6da5fe",
+            "sourceColumn": "CONCAT",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ANALITICA - Copiar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "effd80e0-9c6e-46c5-97d9-8d94517f0b55",
+            "sourceColumn": "ANALITICA - Copiar",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DESCANALITICA - Copiar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eeeec797-ceec-4f01-9cf6-5fd87f7e877a",
+            "sourceColumn": "DESCANALITICA - Copiar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CONCAT_ANALITICA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c3153448-6fca-4ab8-99d8-12323d91e478",
+            "sourceColumn": "CONCAT_ANALITICA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Filtro TipoCentroCusto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "        BASE_DADOS[TIPOCENTRODECUSTO],",
+              "        \"FOLHA\",\"Folha\",",
+              "        \"OPERACIONAIS\",\"Operacionais\",",
+              "        \"SERVIÇO INST\",\"Serviços Instala\",",
+              "        \"ASSIST. TEC\",\"Assitência Técnica\",",
+              "        \"FRETE\",\"Frete\",",
+              "        \"IMOB ATIVOS\",\"Imobilizados Ativos\",",
+              "        \"IMPOSTO ICMS\",\"Imposto ICMS\",",
+              "        \"REFORMA DESP\",\"Despesa de Reforma\",",
+              "        \"REFORMA IMOB\",\"Reforma Imobilizados\",",
+              "        \"TX CARTAO CRED\",\"Taxa Cartão de Crédito\",",
+              "        \"Outros\")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "5b68c79b-0761-4e45-907a-6927e0664359",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Total_Realizado_OK",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "SUM(BASE_DADOS[LANCADO])+SUM(BASE_DADOS[GASTOESPECIFICO])+SUM(BASE_DADOS[PROGRAMADO])",
+            "isDataTypeInferred": true,
+            "lineageTag": "6cdc0013-3b7c-4b80-8e8a-9649a17f1853",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Tipo_GRAFICO_JEAN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "    TRUE(),",
+              "    BASE_DADOS[ORCAMENTO] > 0, \"Orçado\",",
+              "    BASE_DADOS[Total_Realizado_OK] > 0, \"Realizado\",",
+              "    \"Outro\"",
+              ")",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "3c4717be-ad0d-49fc-8b1d-b2ac8ad2f5e8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "URL DA FOTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "WebUrl",
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "                    BASE_DADOS[FILTRO_GO],",
+              "                    \"PAULO ROGÉRIO\",\"https://file.espacosmart.com.br/imagem/paulo-rogerio.png\",",
+              "                    \"CONRAD RIBAS\",\"https://file.espacosmart.com.br/imagem/conrad.png\",",
+              "                    \"LUCIANO RODRIGUES\",\"https://file.espacosmart.com.br/imagem/luciano.png\",",
+              "                    \"MAURICIO FERNANDES\",\"https://file.espacosmart.com.br/imagem/mauricio.png\",",
+              "                    \"DANIEL RAMOS\",\"https://file.espacosmart.com.br/imagem/daniel.png\"",
+              "",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "bb44622b-9ee7-49b7-858f-3d720bc91410",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "0f3c3703-b293-4298-82e5-74fd13626707",
+        "partitions": [
+          {
+            "name": "BASE_DADOS-397202db-edf0-4921-9db2-aec5b23ddfe4",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"G:\\Drives compartilhados\\TI\\26 - Power BI\\ORCAMENTO_OFICIAL001.xlsx\"), null, true),",
+                "    BASE_DADOS_Sheet = Fonte{[Item=\"BASE_DADOS\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(BASE_DADOS_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"MÊS/ANO\", type date}, {\"RESPONSAVEL\", type text}, {\"SETOR\", type text}, {\"UNIDADE\", type text}, {\"ANALITICA\", Int64.Type}, {\"DESCANALITICA\", type text}, {\"CENTRODECUSTO\", Int64.Type}, {\"TIPOCENTRODECUSTO\", type text}, {\"ORCAMENTO\", type number}, {\"LANCADO\", type number}, {\"GASTOESPECIFICO\", type number}, {\"PROGRAMADO\", Int64.Type}, {\"SALDO\", type number}, {\"Column14\", type number}, {\"Column15\", type number}, {\"Column16\", Int64.Type}, {\"Column17\", type number}}),",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Tipo Alterado\", each true),",
+                "    #\"Linhas Filtradas1\" = Table.SelectRows(#\"Linhas Filtradas\", each ([ANALITICA] <> null and [ANALITICA] <> \"\")),",
+                "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Linhas Filtradas1\",null,\"NÃO INFORMADO\",Replacer.ReplaceValue,{\"RESPONSAVEL\"}),",
+                "    #\"Linhas Filtradas2\" = Table.SelectRows(#\"Valor Substituído\", each true),",
+                "    #\"Valor Substituído1\" = Table.ReplaceValue(#\"Linhas Filtradas2\",null,\"NÃO INFORMADO\",Replacer.ReplaceValue,{\"SETOR\"}),",
+                "    #\"Linhas Filtradas3\" = Table.SelectRows(#\"Valor Substituído1\", each true),",
+                "    #\"Valor Substituído2\" = Table.ReplaceValue(#\"Linhas Filtradas3\",null,\"NÃO INFORMADO\",Replacer.ReplaceValue,{\"UNIDADE\"}),",
+                "    #\"Linhas Filtradas4\" = Table.SelectRows(#\"Valor Substituído2\", each true),",
+                "    #\"Valor Substituído3\" = Table.ReplaceValue(#\"Linhas Filtradas4\",null,0,Replacer.ReplaceValue,{\"CENTRODECUSTO\"}),",
+                "    #\"Linhas Filtradas5\" = Table.SelectRows(#\"Valor Substituído3\", each true),",
+                "    #\"Valor Substituído4\" = Table.ReplaceValue(#\"Linhas Filtradas5\",null,\"NÃO INFORMADO\",Replacer.ReplaceValue,{\"TIPOCENTRODECUSTO\"}),",
+                "    #\"Linhas Filtradas6\" = Table.SelectRows(#\"Valor Substituído4\", each true),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Linhas Filtradas6\",{\"Column14\", \"Column15\", \"Column16\", \"Column17\"}),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Colunas Removidas\", \"TOTAL REALIZADO\", each [LANCADO]+[GASTOESPECIFICO]+[PROGRAMADO]),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Personalização Adicionada\",{{\"TOTAL REALIZADO\", \"TOTAL_REALIZADO\"}}),",
+                "    #\"Personalização Adicionada1\" = Table.AddColumn(#\"Colunas Renomeadas\", \"DIFERENCA\", each [ORCAMENTO]-[TOTAL_REALIZADO]),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Personalização Adicionada1\",{{\"TOTAL_REALIZADO\", type number}, {\"DIFERENCA\", type number}}),",
+                "    #\"Coluna Duplicada\" = Table.DuplicateColumn(#\"Tipo Alterado1\", \"MÊS/ANO\", \"MÊS/ANO - Copiar\"),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Coluna Duplicada\",{{\"MÊS/ANO - Copiar\", \"Mês\"}}),",
+                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Colunas Renomeadas1\",{\"Mês\"}),",
+                "    #\"Coluna Duplicada1\" = Table.DuplicateColumn(#\"Colunas Removidas1\", \"MÊS/ANO\", \"MÊS/ANO - Copiar\"),",
+                "    #\"Colunas Removidas2\" = Table.RemoveColumns(#\"Coluna Duplicada1\",{\"MÊS/ANO - Copiar\"}),",
+                "    #\"Personalização Adicionada2\" = Table.AddColumn(#\"Colunas Removidas2\", \"TESTEPersonalizar\", each Date.Month([#\"MÊS/ANO\"])),",
+                "    #\"Colunas Renomeadas2\" = Table.RenameColumns(#\"Personalização Adicionada2\",{{\"TESTEPersonalizar\", \"NUM_MES\"}}),",
+                "    #\"Personalização Adicionada3\" = Table.AddColumn(#\"Colunas Renomeadas2\", \"NOME_MESS\", each Date.MonthName([#\"MÊS/ANO\"],\"MMMM\")),",
+                "    #\"Colunas Mescladas\" = Table.CombineColumns(Table.TransformColumnTypes(#\"Personalização Adicionada3\", {{\"NUM_MES\", type text}}, \"pt-BR\"),{\"NUM_MES\", \"NOME_MESS\"},Combiner.CombineTextByDelimiter(\"-\", QuoteStyle.None),\"CONCAT\"),",
+                "    #\"Coluna Duplicada2\" = Table.DuplicateColumn(#\"Colunas Mescladas\", \"ANALITICA\", \"ANALITICA - Copiar\"),",
+                "    #\"Coluna Duplicada3\" = Table.DuplicateColumn(#\"Coluna Duplicada2\", \"DESCANALITICA\", \"DESCANALITICA - Copiar\"),",
+                "    #\"Coluna Mesclada Inserida\" = Table.AddColumn(#\"Coluna Duplicada3\", \"CONCAT_ANALITICA\", each Text.Combine({Text.From([#\"ANALITICA - Copiar\"], \"pt-BR\"), [#\"DESCANALITICA - Copiar\"]}, \" \"), type text),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Coluna Mesclada Inserida\",{{\"MÊS/ANO\", type date}}),",
+                "    #\"Valor Substituído5\" = Table.ReplaceValue(#\"Tipo Alterado2\",\"ADMNISTRATIVO/FINANCEIRO\",\"ADMINISTRATIVO/FINANCEIRO\",Replacer.ReplaceText,{\"SETOR\"}),",
+                "    #\"Valor Substituído6\" = Table.ReplaceValue(#\"Valor Substituído5\",\"STEEL FRAME PROJETOS  PRONTO\",\"STEEL FRAME PROJETOS PRONTO\",Replacer.ReplaceText,{\"SETOR\"}),",
+                "    #\"Linhas Filtradas7\" = Table.SelectRows(#\"Valor Substituído6\", each true)",
+                "in",
+                "    #\"Linhas Filtradas7\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CALENDARIO",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "2a9c1f227b2a454c8cd2cf054a9f0a2d"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "002f7518-7a03-49ea-b79b-031a4bd080b4",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_3a042f3c-093f-41c8-86e6-66a42eb72552"
+                },
+                "isDefault": true,
+                "relationship": "ce5e0ac5-e3b6-4b9e-a456-0c2546350015"
+              }
+            ]
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "47d6e76e-0929-45d1-81b7-a7bf2fa69246",
+            "sourceColumn": "[Dia]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Nome do Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "a26b8928-60eb-4f54-bffb-82057380d44e",
+            "sortByColumn": "Número do Mês",
+            "sourceColumn": "[Nome do Mês]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Mês Abreviado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "4ea20326-900c-417c-9686-c33784cd4e3a",
+            "sortByColumn": "Número do Mês",
+            "sourceColumn": "[Mês Abreviado]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Número do Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "26be0336-97a6-47c3-97b3-0466e2deb7fc",
+            "sourceColumn": "[Número do Mês]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "76febd55-0b83-4275-af30-2daaae1ba24a",
+            "sourceColumn": "[Ano]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Dia da Semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "f2135181-b009-48c8-8723-d0cd195db744",
+            "sortByColumn": "Número Dia da Semana",
+            "sourceColumn": "[Dia da Semana]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Número Dia da Semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "2cd0c6ba-815a-4fda-83a5-24090272ae3f",
+            "sourceColumn": "[Número Dia da Semana]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "40135a28-5bfb-40bd-a801-33e621e77eaa",
+            "sourceColumn": "[Trimestre]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Resultado Disponível",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "9f4d6e31-2b80-4d0c-847b-38cd1f2bce92",
+            "sourceColumn": "[Resultado Disponível]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "c9cc59cd-90a5-48ca-ac72-0ef16965bcfa",
+        "partitions": [
+          {
+            "name": "CALENDARIO-60c2698e-6872-4d9f-b4f3-7857a928e1da",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "ADDCOLUMNS (",
+                "    CALENDAR(DATE(2023, 1, 1), DATE(2024, 12, 31)),",
+                "    \"Dia\", DAY([Date]),",
+                "    \"Nome do Mês\", FORMAT([Date], \"MMMM\"),",
+                "    \"Mês Abreviado\", FORMAT([Date], \"MMM\"),",
+                "    \"Número do Mês\", MONTH([Date]),",
+                "    \"Ano\", YEAR([Date]),",
+                "    \"Dia da Semana\", FORMAT([Date], \"dddd\"),",
+                "    \"Número Dia da Semana\", WEEKDAY([Date]),",
+                "    \"Trimestre\", QUARTER([Date]),",
+                "    \"Resultado Disponível\", IF(YEAR([Date]) < 2024 || (YEAR([Date]) = 2024 && MONTH([Date]) <= 4), TRUE(), FALSE())",
+                ")",
+                "",
+                ""
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "GR",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "GR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6025b67c-1a00-4c0e-8803-3a9c6de7981a",
+            "sourceColumn": "GR",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "URL",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "ImageUrl",
+            "dataType": "string",
+            "lineageTag": "b146d02c-bba6-43a7-ba49-dbec21d6c566",
+            "sourceColumn": "URL",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "20a480ff-111f-49cc-8564-c9c6d611c578",
+        "partitions": [
+          {
+            "name": "GR",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"G:\\Drives compartilhados\\TI\\26 - Power BI\\GR.xlsx\"), null, true),",
+                "    Tabela1_Table = Fonte{[Item=\"Tabela1\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Tabela1_Table,{{\"GR\", type text}, {\"URL\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Coluna 1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "4e7d270e-641f-41bc-847c-4e7582240f22",
+            "sourceColumn": "Coluna 1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ACIMA_ORÇAMENTO_TAB",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "VAR FilialAgrupado = SELECTEDVALUE('BASE_DADOS'[LOJA_AGRUPADO])",
+              "VAR Percentual = CALCULATE([PERC], FILTER('BASE_DADOS', 'BASE_DADOS'[LOJA_AGRUPADO] = FilialAgrupado))",
+              "",
+              "RETURN",
+              "    SWITCH(",
+              "        TRUE(),",
+              "        Percentual > 100, \"ACIMA\",",
+              "        \"ABAIXO\"",
+              "    )"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "72141f07-07a9-4003-a8e1-167a14f3f602",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Categoria_Orçamento_TAB",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "IF(",
+              "    [PERC] > 100,",
+              "    \"Acima do Orçamento\",",
+              "    \"Abaixo do Orçamento\"",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "6866baef-2349-4db2-bec8-f6b106eb0596",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "8a2f2366-b174-4f6b-93b4-57b054d77dcc",
+        "measures": [
+          {
+            "name": "Valor Inicial",
+            "expression": "0 ",
+            "formatString": "0",
+            "lineageTag": "68f97bdd-a864-408c-a9f7-8e854f7105f5"
+          },
+          {
+            "name": "Valor Final",
+            "expression": "1",
+            "formatString": "0",
+            "lineageTag": "89cf859a-84dd-43bc-acb3-00ff32efe175"
+          },
+          {
+            "name": "Valor 3",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "0.7",
+            "lineageTag": "77ce696d-1438-41fe-9801-0131c2c569f8"
+          },
+          {
+            "name": "Valor 2",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "0.3",
+            "lineageTag": "a3e2303d-9a8e-4215-b169-8ee8d8af4eb5"
+          },
+          {
+            "name": "Total Realizado",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(BASE_DADOS[LANCADO])",
+            "lineageTag": "093f1d00-22bf-416c-b7c7-60c4fab033c9"
+          },
+          {
+            "name": "R$ ORÇADO",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(BASE_DADOS[ORCAMENTO])",
+            "lineageTag": "c9c74688-6eda-4fc7-90da-c08df201fa15"
+          },
+          {
+            "name": "PERC",
+            "expression": [
+              "",
+              "VAR Calculo = [Total Realizado] / [R$ ORÇADO]",
+              "RETURN",
+              "    Calculo"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "1611a833-7aa6-492f-a540-4c27233de5ba"
+          },
+          {
+            "name": "Eixo Y max",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "            VAR vTABELA = ALLSELECTED(BASE_DADOS[MÊS/ANO])",
+              "            VAR vMAX = MAXX(vTABELA,[Total Realizado])",
+              "            VAR vDESLOCAMENTO = 1.4",
+              "        return",
+              "            vMAX * vDESLOCAMENTO"
+            ],
+            "lineageTag": "b80b5c43-0cc2-4f40-9742-4ae46ef3030f"
+          },
+          {
+            "name": "DIFFOK",
+            "expression": "SUM(BASE_DADOS[DIFF]) *-1",
+            "formatString": "0.00",
+            "lineageTag": "b422e9f2-0e11-4357-8318-38321bbfa3a7"
+          },
+          {
+            "name": "Eixo Y max folha + oper",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "            VAR vTABELA = ALLSELECTED(CALENDARIO[Date].[Mês])",
+              "            VAR vMAX = MAXX(vTABELA,[Total Realizado]+[R$ ORÇADO])",
+              "            VAR vDESLOCAMENTO = 1.4",
+              "        return",
+              "            vMAX * vDESLOCAMENTO"
+            ],
+            "lineageTag": "e58e984b-2a80-4ea2-ad73-841efb23a37b"
+          },
+          {
+            "name": "YOY REALIZADO",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "                [Total Realizado],",
+              "                SAMEPERIODLASTYEAR('CALENDARIO'[Date])",
+              ")"
+            ],
+            "lineageTag": "c9f04902-f550-40d2-8cb4-d2354e62b1e6"
+          },
+          {
+            "name": "YOY ORÇADO",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "                [R$ ORÇADO],",
+              "                SAMEPERIODLASTYEAR('CALENDARIO'[Date])",
+              ")"
+            ],
+            "lineageTag": "1c249a8d-1945-479a-883e-36323fad7cfe"
+          },
+          {
+            "name": "Orç Vs Ano Anterior",
+            "expression": [
+              "",
+              "    VAR Perc_YOY = DIVIDE([YOY ORÇADO],[R$ ORÇADO])",
+              "    VAR Perc_Formatado = FORMAT(Perc_YOY,\"0.00%\")",
+              "    VAR Cor = IF(Perc_YOY > 0, \"green\",\"red\")",
+              "    VAR Icone = SWITCH(",
+              "                        TRUE(),",
+              "                        Perc_YOY > 0, \"▲\",",
+              "                        Perc_YOY < 0, \"▼\"",
+              "    )",
+              "",
+              "RETURN",
+              "Icone & Perc_Formatado"
+            ],
+            "lineageTag": "8a015efd-7f80-48f5-b63f-6730eeb2dfa2"
+          },
+          {
+            "name": "Real Vs Ano Anterior",
+            "expression": [
+              "",
+              "    VAR Perc_YOY = DIVIDE([YOY REALIZADO],[Total Realizado])",
+              "    VAR Perc_Formatado = FORMAT(Perc_YOY,\"0.00%\")",
+              "    VAR Cor = IF(Perc_YOY > 0, \"green\",\"red\")",
+              "    VAR Icone = SWITCH(",
+              "                        TRUE(),",
+              "                        Perc_YOY > 0, \"▲\",",
+              "                        Perc_YOY < 0, \"▼\"",
+              "    )",
+              "",
+              "RETURN",
+              "Icone & Perc_Formatado"
+            ],
+            "lineageTag": "b9de2940-7cc7-40c6-ac76-52385a2bd818"
+          },
+          {
+            "name": "Medida",
+            "annotations": [
+              {
+                "name": "43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c",
+                "value": "True"
+              }
+            ],
+            "lineageTag": "309beb62-9598-40e1-9d50-39f7d4718439"
+          },
+          {
+            "name": "Mes Anterior",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "                        [Total Realizado],",
+              "                        DATEADD('CALENDARIO'[Date],-1,MONTH)",
+              ")"
+            ],
+            "lineageTag": "2f1cfe0c-772e-4f07-b4bd-9c1e87dd03c7"
+          },
+          {
+            "name": "Perc Mes",
+            "expression": "DIVIDE([Calc Mês],[Total Realizado],0)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "8ba9ecaa-0502-4d77-a896-3c09574d4fdf"
+          },
+          {
+            "name": "Calc Mês",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "[Total Realizado] - [Mes Anterior]",
+            "lineageTag": "74b0cec9-6b40-4529-9898-1b5aee6b9840"
+          },
+          {
+            "name": "Mes Orçado",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "                        [R$ ORÇADO],",
+              "                        DATEADD('CALENDARIO'[Date],-1,MONTH)",
+              ")"
+            ],
+            "lineageTag": "04567295-e39b-4c58-8a78-10059755c96b"
+          },
+          {
+            "name": "Calc Mês Orçado",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "[R$ ORÇADO] - [Mes Orçado]",
+            "lineageTag": "43c4706e-a29c-4cec-88d2-3caa62d2ad1b"
+          },
+          {
+            "name": "Perc Mes Orçado",
+            "expression": [
+              "",
+              "",
+              "VAR PERC = DIVIDE([Calc Mês Orçado],[R$ ORÇADO],0)",
+              "VAR PERC_FORMATADO = FORMAT(PERC,\"0.00%\")",
+              "",
+              "RETURN",
+              "IF(",
+              "PERC > 0 , \"▲ \" & PERC_FORMATADO,\"▼ \" & PERC_FORMATADO",
+              ")"
+            ],
+            "lineageTag": "24aa1aa4-0d31-4d4a-8e3d-bc89e5ab2279"
+          },
+          {
+            "name": "Cartão KPI Orçado",
+            "expression": "\"R$ 99,99 mi\"",
+            "lineageTag": "712c2520-e36f-4517-b05a-72297595efe5"
+          },
+          {
+            "name": "Limite Inferior",
+            "expression": "0",
+            "formatString": "0",
+            "lineageTag": "290def5a-44d8-4c70-9165-7da06474d909"
+          },
+          {
+            "name": "Medida 2",
+            "annotations": [
+              {
+                "name": "43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c",
+                "value": "True"
+              }
+            ],
+            "lineageTag": "4096ca3b-729e-42dd-a76d-0c55729d2e31"
+          },
+          {
+            "name": "Rotulo Base",
+            "expression": [
+              "",
+              "            IF(",
+              "                [DIFFOK] >0, ",
+              "                [R$ ORÇADO],",
+              "                [Total Realizado]",
+              "                )"
+            ],
+            "formatStringDefinition": {
+              "expression": [
+                "VAR vValor = [Total Realizado]",
+                "",
+                "RETURN",
+                "\"\"\"\" &",
+                "    SWITCH(",
+                "            TRUE(),",
+                "            vValor >= 1000000000, FORMAT(vValor, \"#,,,.0 Bi\"),",
+                "            vValor >= 1000000, FORMAT(vValor, \"#,,.0 Mi\"),",
+                "            vValor >= 1000, FORMAT(vValor, \"#,.0 K\"),",
+                "            FORMAT(vValor,\"#\")",
+                "    )",
+                "    & \"\"\"\""
+              ]
+            },
+            "lineageTag": "9ef205df-d1a6-4c20-a3e2-fce06e08cba3"
+          },
+          {
+            "name": "DIFF Princ Gastos",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(BASE_DADOS[DIFF])",
+            "lineageTag": "95ff2704-2152-400f-9e2b-42e0cdd1d4b0"
+          },
+          {
+            "name": "Perc Mes Realizado",
+            "expression": [
+              "",
+              "",
+              "VAR PERC = DIVIDE([Calc Mês],[Total Realizado],0)",
+              "VAR PERC_FORMATADO = FORMAT(PERC,\"0.00%\")",
+              "",
+              "RETURN",
+              "IF(",
+              "PERC > 0 , \"▲ \" & PERC_FORMATADO,\"▼ \" & PERC_FORMATADO",
+              ")"
+            ],
+            "lineageTag": "8c7cc91c-920a-43ad-9716-2554d6e86b0a"
+          },
+          {
+            "name": "PERC ROTULO DETALHE",
+            "expression": [
+              "",
+              "VAR Calculo = [Total Realizado] / [R$ ORÇADO]",
+              "VAR Percentual = FORMAT(Calculo,\"0.00%\")",
+              "RETURN",
+              "    IF(Calculo > 1, \"\"&Percentual,\"🟢\"&Percentual)"
+            ],
+            "lineageTag": "7abc13cd-3551-49ff-a7a6-157e1d2ea835"
+          },
+          {
+            "name": "DIFF_remov_filters",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(BASE_DADOS[DIFF]) *-1,",
+              "    REMOVEFILTERS(tEixo)",
+              ")"
+            ],
+            "lineageTag": "dc89e9da-24d1-4d8c-b188-521945b7523c"
+          },
+          {
+            "name": "DIFF_remov_filters %",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "DIVIDE([Total Realizado] , [R$ ORÇADO], 0) -1,",
+              "REMOVEFILTERS(tEixo)",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "6c908637-d526-4010-a749-36198a9af1da"
+          },
+          {
+            "name": "AcumuladoREAL",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "    CALCULATE(",
+              "    TOTALYTD([Total Realizado],CALENDARIO[Date]),",
+              "    CALENDARIO[Resultado Disponível] = TRUE()",
+              "    )"
+            ],
+            "lineageTag": "207e5bb0-2460-492b-a341-d125c09e175d"
+          },
+          {
+            "name": "AcumuladoORC",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "    CALCULATE(",
+              "    TOTALYTD([R$ ORÇADO],CALENDARIO[Date]),",
+              "    CALENDARIO[Resultado Disponível] = TRUE()",
+              "    )"
+            ],
+            "lineageTag": "7cd31de2-ae16-451e-b303-b2b22bcc4c54"
+          },
+          {
+            "name": "Circulo Progresso",
+            "dataCategory": "ImageUrl",
+            "expression": [
+              "",
+              "",
+              "",
+              "/* --------------------------------------------------------------------------",
+              "DESENVOLVIDO POR JEFFERSON ALVES || DADOS CRIATIVOS ",
+              "",
+              "Caso queira aprender do ZERO a criar este código e muito outros do Absoluto Zero, te convido a fazer parte do meu treinamento fechado, Lá ofereço uma instrução detalhada, guiando você em cada etapa do processo. ",
+              "",
+              "Link para iniciar essa jornada de aprendizado:",
+              "",
+              "https://bit.ly/DashsCriativos",
+              "",
+              "",
+              "--------------------------",
+              "",
+              "Redes Sociais",
+              "",
+              "► Instagram: https://www.instagram.com/dadoscriativos_/",
+              "",
+              "► Linkedin: https://www.linkedin.com/in/jeffersonallvesneves/",
+              "",
+              "► YouTube: https://www.youtube.com/c/JeffersonAlvesDadosCriativos",
+              "",
+              "► Grupo Telegram: https://t.me/dadoscriativos",
+              "",
+              "-------------------------------------------------------------------------- */",
+              "",
+              "",
+              "",
+              "VAR vPorcentagem = [PERC]",
+              "",
+              "",
+              "",
+              "---------------------------------------",
+              "-- FORMATAÇÕES",
+              "---------------------------------------",
+              "",
+              "VAR vProgresso_cor = IF(",
+              "                        [PERC] >= 1, \"RED\", \"GREEN\")",
+              "",
+              "VAR vFundo_cor = \"#F9F9FA\"",
+              "",
+              "-- Aceita Valores de 0 a 9, quanto maior o valor, ficará mais transparente ",
+              "VAR vDiferenca_opacidade = 8",
+              "",
+              "-- Aceita somente 2 valores 1 = visível  0 = transparente ",
+              "VAR vContorno =  0",
+              "",
+              "",
+              "VAR vMarcadores          = 3",
+              "VAR vMarcadores_1_altura = 10",
+              "VAR vMarcadores_2_altura = 20",
+              "",
+              "VAR vFonte =  \"Segoe Ui\"",
+              "",
+              "VAR vRotulo_dados       = FORMAT( vPorcentagem, \"0.00%\" )",
+              "VAR vRotulo_dados_tam   = 30",
+              "VAR vRotulo_dados_cor   = vProgresso_cor",
+              "VAR vRotulo_dados_peso  = 600 ",
+              "",
+              "VAR vRotulo_categoria       = \"Perc. Meta\"",
+              "VAR vRotulo_categoria_tam   = 15",
+              "VAR vRotulo_categoria_cor   = \"RGB(0,0,0)\"",
+              "VAR vRotulo_categoria_peso  = 600 ",
+              "",
+              "",
+              "",
+              "RETURN ",
+              "",
+              "\"data:image/svg+xml,<svg viewBox='0 0 200 200' fill='none' xmlns='http://www.w3.org/2000/svg'><defs><style>\"& VAR vRA =  MIN( 4,  MAX( 1, vMarcadores ) )VAR vRB =  MIN( 30,  MAX( 8, vMarcadores_1_altura ) )VAR vRC =  MIN( 30,  MAX( 8, vMarcadores_2_altura ) )VAR vPorcentagem_formatada =  FORMAT( 315 * vPorcentagem, \"0.00\", \"en-us\" ) VAR vPorcentagem_corte = IF( vPorcentagem > 1, 315, vPorcentagem_formatada  ) RETURN vRA& \"#x1 {fill: \" & vFundo_cor & \";stroke: \" & vProgresso_cor & \"} #m rect {width: 2;height: 20;fill: \" & vProgresso_cor & \";}#m2 rect {width: 2;height: 20;fill: \" & vProgresso_cor & \";}#d1 {stroke-dasharray: 315;stroke-dashoffset:  \" & vPorcentagem_corte  & \" ;stroke: \" & vFundo_cor & \";opacity: 0.\"&vDiferenca_opacidade&\";transform: rotate(-88deg) rotateX(-180deg);transform-origin: center;transform-box: fill-box;}</style></defs><circle id='x1' cx='100.5' cy='100.5' r='91.5' fill='\"& vFundo_cor &\"' stroke='\" & IF( vContorno = 1, vProgresso_cor, \"#0000\" ) & \"' stroke-width='2'/><g id='m'><rect  x='91.1147' y='12.4297' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-5.5136 91.1147 12.4297)' fill='#06FB48'/><rect  x='84.3066' y='13.3516' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-10.0136 84.3066 13.3516)' fill='#06FB48'/><rect id='13.5 deg' x='77.5933' y='14.8086' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-14.5136 77.5933 14.8086)' fill='#06FB48'/><rect id='18 deg' x='71.0146' y='16.7969' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-19.0136 71.0146 16.7969)' fill='#06FB48'/><rect id='22.5 deg' x='64.6118' y='19.2852' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-23.5136 64.6118 19.2852)' fill='#06FB48'/><rect id='27 deg' x='58.4243' y='22.2734' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-28.0136 58.4243 22.2734)' fill='#06FB48'/><rect id='31.5 deg' x='52.4907' y='25.7344' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-32.5136 52.4907 25.7344)' fill='#06FB48'/><rect id='40.5 deg' x='41.5273' y='34.0039' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-41.5136 41.5273 34.0039)' fill='#06FB48'/><rect id='45 deg' x='36.5645' y='38.7539' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-46.0136 36.5645 38.7539)' fill='#06FB48'/><rect id='49.5 deg' x='31.9907' y='43.8789' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-50.5136 31.9907 43.8789)' fill='#06FB48'/><rect id='54 deg' x='27.8335' y='49.3516' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-55.0136 27.8335 49.3516)' fill='#06FB48'/><rect id='58.5 deg' x='24.1187' y='55.1289' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-59.5136 24.1187 55.1289)' fill='#06FB48'/><rect id='63 deg' x='20.8677' y='61.1836' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-64.0136 20.8677 61.1836)' fill='#06FB48'/><rect id='67.5 deg' x='18.1021' y='67.4648' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-68.5136 18.1021 67.4648)' fill='#06FB48'/><rect id='76.5 deg' x='14.0913' y='80.6016' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-77.5136 14.0913 80.6016)' fill='#06FB48'/><rect id='81 deg' x='12.8696' y='87.3633' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-82.0136 12.8696 87.3633)' fill='#06FB48'/><rect id='85.5 deg' x='12.1836' y='94.1953' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-86.5136 12.1836 94.1953)' fill='#06FB48'/><rect id='90 deg' x='12.0352' y='101.066' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-91.0136 12.0352 101.066)' fill='#06FB48'/><rect id='94.5 deg' x='12.4268' y='107.93' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-95.5136 12.4268 107.93)' fill='#06FB48'/><rect id='99 deg' x='13.354' y='114.734' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-100.014 13.354 114.734)' fill='#06FB48'/><rect id='103.5 deg' x='14.814' y='121.445' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-104.514 14.814 121.445)' fill='#06FB48'/><rect id='112.5 deg' x='19.2866' y='134.434' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-113.514 19.2866 134.434)' fill='#06FB48'/><rect id='117 deg' x='22.2729' y='140.613' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-118.014 22.2729 140.613)' fill='#06FB48'/><rect id='121.5 deg' x='25.7358' y='146.551' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-122.514 25.7358 146.551)' fill='#06FB48'/><rect id='126 deg' x='29.6533' y='152.195' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-127.014 29.6533 152.195)' fill='#06FB48'/><rect id='130.5 deg' x='34.001' y='157.516' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-131.514 34.001 157.516)' fill='#06FB48'/><rect id='135 deg' x='38.7534' y='162.477' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-136.014 38.7534 162.477)' fill='#06FB48'/><rect id='139.5 deg' x='43.8813' y='167.047' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-140.514 43.8813 167.047)' fill='#06FB48'/><rect id='148.5 deg' x='55.1299' y='174.922' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-149.514 55.1299 174.922)' fill='#06FB48'/><rect id='153 deg' x='61.1826' y='178.172' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-154.014 61.1826 178.172)' fill='#06FB48'/><rect id='157.5 deg' x='67.4717' y='180.938' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-158.514 67.4717 180.938)' fill='#06FB48'/><rect id='162 deg' x='73.9585' y='183.199' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-163.014 73.9585 183.199)' fill='#06FB48'/><rect id='166.5 deg' x='80.6035' y='184.953' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-167.514 80.6035 184.953)' fill='#06FB48'/><rect id='171 deg' x='87.3643' y='186.172' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-172.014 87.3643 186.172)' fill='#06FB48'/><rect id='175.5 deg' x='94.2007' y='186.855' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(-176.514 94.2007 186.855)' fill='#06FB48'/><rect id='184.5 deg' x='107.928' y='186.609' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(174.486 107.928 186.609)' fill='#06FB48'/><rect id='189 deg' x='114.736' y='185.688' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(169.986 114.736 185.688)' fill='#06FB48'/><rect id='193.5 deg' x='121.45' y='184.23' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(165.486 121.45 184.23)' fill='#06FB48'/><rect id='198 deg' x='128.028' y='182.242' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(160.986 128.028 182.242)' fill='#06FB48'/><rect id='202.5 deg' x='134.431' y='179.754' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(156.486 134.431 179.754)' fill='#06FB48'/><rect id='207 deg' x='140.619' y='176.766' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(151.986 140.619 176.766)' fill='#06FB48'/><rect id='211.5 deg' x='146.552' y='173.305' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(147.486 146.552 173.305)' fill='#06FB48'/><rect id='220.5 deg' x='157.516' y='165.035' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(138.486 157.516 165.035)' fill='#06FB48'/><rect id='225 deg' x='162.479' y='160.285' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(133.986 162.479 160.285)' fill='#06FB48'/><rect id='229.5 deg' x='167.052' y='155.16' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(129.486 167.052 155.16)' fill='#06FB48'/><rect id='234 deg' x='171.209' y='149.688' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(124.986 171.209 149.688)' fill='#06FB48'/><rect id='238.5 deg' x='174.924' y='143.91' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(120.486 174.924 143.91)' fill='#06FB48'/><rect id='243 deg' x='178.175' y='137.855' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(115.986 178.175 137.855)' fill='#06FB48'/><rect id='247.5 deg' x='180.941' y='131.574' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(111.486 180.941 131.574)' fill='#06FB48'/><rect id='256.5 deg' x='184.952' y='118.438' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(102.486 184.952 118.438)' fill='#06FB48'/><rect id='261 deg' x='186.173' y='111.676' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(97.9864 186.173 111.676)' fill='#06FB48'/><rect id='265.5 deg' x='186.859' y='104.844' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(93.4864 186.859 104.844)' fill='#06FB48'/><rect id='270 deg' x='187.008' y='97.9727' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(88.9864 187.008 97.9727)' fill='#06FB48'/><rect id='274.5 deg' x='186.616' y='91.1094' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(84.4864 186.616 91.1094)' fill='#06FB48'/><rect id='279 deg' x='185.689' y='84.3047' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(79.9864 185.689 84.3047)' fill='#06FB48'/><rect id='283.5 deg' x='184.229' y='77.5938' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(75.4864 184.229 77.5938)' fill='#06FB48'/><rect id='292.5 deg' x='179.756' y='64.6055' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(66.4864 179.756 64.6055)' fill='#06FB48'/><rect id='297 deg' x='176.77' y='58.4258' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(61.9864 176.77 58.4258)' fill='#06FB48'/><rect id='301.5 deg' x='173.307' y='52.4883' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(57.4864 173.307 52.4883)' fill='#06FB48'/><rect id='306 deg' x='169.39' y='46.8438' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(52.9864 169.39 46.8438)' fill='#06FB48'/><rect id='310.5 deg' x='165.042' y='41.5234' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(48.4864 165.042 41.5234)' fill='#06FB48'/><rect id='315 deg' x='160.29' y='36.5625' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(43.9864 160.29 36.5625)' fill='#06FB48'/><rect id='319.5 deg' x='155.162' y='31.9922' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(39.4864 155.162 31.9922)' fill='#06FB48'/><rect id='328.5 deg' x='143.913' y='24.1172' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(30.4864 143.913 24.1172)' fill='#06FB48'/><rect id='333 deg' x='137.86' y='20.8672' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(25.9864 137.86 20.8672)' fill='#06FB48'/><rect id='337.5 deg' x='131.571' y='18.1016' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(21.4864 131.571 18.1016)' fill='#06FB48'/><rect id='342 deg' x='125.084' y='15.8398' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(16.9864 125.084 15.8398)' fill='#06FB48'/><rect id='346.5 deg' x='118.439' y='14.0859' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(12.4864 118.439 14.0859)' fill='#06FB48'/><rect id='351 deg' x='111.679' y='12.8672' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(7.9864 111.679 12.8672)' fill='#06FB48'/><rect id='355.5 deg' x='104.842' y='12.1836' width='\" & vRA & \"' height='\" & vRB & \"' transform='rotate(3.48641 104.842 12.1836)' fill='#06FB48'/></g><g id='m2'><rect id='0 deg' x='98.3423' y='12.0039' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(1 98.3423 12.0039)' fill='#06FB48'/><rect id='36 deg' x='46.8462' y='29.6484' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(-37.0136 46.8462 29.6484)' fill='#06FB48'/><rect id='72 deg' x='15.8389' y='73.9531' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(-73.0136 15.8389 73.9531)' fill='#06FB48'/><rect id='108 deg' x='16.7954' y='128.031' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(-109.014 16.7954 128.031)' fill='#06FB48'/><rect id='144 deg' x='49.3506' y='171.211' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(-145.014 49.3506 171.211)' fill='#06FB48'/><rect id='180 deg' x='101.069' y='187.004' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(178.986 101.069 187.004)' fill='#06FB48'/><rect id='216 deg' x='152.197' y='169.391' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(142.986 152.197 169.391)' fill='#06FB48'/><rect id='252 deg' x='183.204' y='125.086' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(106.986 183.204 125.086)' fill='#06FB48'/><rect id='288 deg' x='182.248' y='71.0078' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(70.9864 182.248 71.0078)' fill='#06FB48'/><rect id='324 deg' x='149.692' y='27.8281' width='\" & vRA & \"' height='\" & vRC & \"' transform='rotate(34.9864 149.692 27.8281)' fill='#06FB48'/></g><circle id='d1' cx='100' cy='101' r='50' fill='#0000' stroke='white' stroke-opacity='1' stroke-width='79'/><text id='d3' x='100' y='105' fill='\" & vRotulo_dados_cor & \"'  font-family='\" & vFonte & \"' font-size='\" & vRotulo_dados_tam & \"' font-weight='\" & vRotulo_dados_peso & \"' text-anchor='middle' dominant-baseline='Auto' >\" & vRotulo_dados & \"</text><text id='d4' x='100' y='115' fill='\" & vRotulo_categoria_cor & \"'  font-family='\" & vFonte & \"' font-size='\" & vRotulo_categoria_tam & \"' font-weight='\" & vRotulo_categoria_peso & \"' text-anchor='middle' dominant-baseline='hanging' >\" & vRotulo_categoria & \"</text></svg>\""
+            ],
+            "lineageTag": "bbe8976a-c4c6-46a8-8834-5390277dcbf5"
+          },
+          {
+            "name": "ACIMA_ORÇAMENTO",
+            "expression": [
+              "",
+              "VAR FilialAgrupado = SELECTEDVALUE('BASE_DADOS'[LOJA_AGRUPADO])",
+              "VAR Percentual = CALCULATE([PERC], FILTER('BASE_DADOS', 'BASE_DADOS'[LOJA_AGRUPADO] = FilialAgrupado))",
+              "",
+              "RETURN",
+              "    SWITCH(",
+              "        TRUE(),",
+              "        Percentual > 100, \"ACIMA\",",
+              "        \"ABAIXO\"",
+              "    )"
+            ],
+            "lineageTag": "c201eb16-b928-4806-8611-532e4920dc91"
+          },
+          {
+            "name": "Categoria_Orçamento",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    TRUE(),",
+              "    [PERC] > 100, \"Acima do Orçamento\",",
+              "    \"Abaixo do Orçamento\"",
+              ")"
+            ],
+            "lineageTag": "e7834ad1-e7ca-48e3-8304-f40d06a722dc"
+          },
+          {
+            "name": "Lojas_Acima_Orçamento",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    COUNTROWS('BASE_DADOS'),",
+              "    Medidas[Categoria_Orçamento_TAB] = \"Acima do Orçamento\"",
+              ")",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "6817977c-202a-43b9-9ccb-88645300535d"
+          },
+          {
+            "name": "Lojas_Abaixo_Orçamento",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    COUNTROWS('BASE_DADOS'),",
+              "    Medidas[Categoria_Orçamento_TAB] = \"Abaixo do Orçamento\"",
+              ")",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "ab5888d0-8691-4e9e-82d6-447bfd71fe91"
+          },
+          {
+            "name": "Tabela_Resumo",
+            "expression": [
+              "",
+              "SUMMARIZE(",
+              "    'BASE_DADOS',",
+              "    'Medidas'[Categoria_Orçamento_TAB],",
+              "    \"Quantidade\", COUNTROWS('BASE_DADOS')",
+              ")",
+              ""
+            ],
+            "lineageTag": "5d2d73ac-4a04-4668-a48e-a2e3eff06556"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "tEixo",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "29b22d0111b645cfab3cee2c1e6afc0b"
+          }
+        ],
+        "columns": [
+          {
+            "name": "X",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "352ae761-6228-470d-bab2-6dd56aecc959",
+            "sourceColumn": "[X]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "2ea562fb-f5d2-4f33-a890-681b015ca6c1",
+            "sourceColumn": "[ID]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "CONCAT",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT(tEixo[ID], \"00\") & \" \" & tEixo[X]",
+            "isDataTypeInferred": true,
+            "lineageTag": "17799bf5-8ce8-4aaa-a1a4-f25fe496e243",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "6c1813e7-532e-4f6c-a82d-7ce4e3b49d6f",
+        "measures": [
+          {
+            "name": "Colunas",
+            "expression": [
+              "",
+              "",
+              "VAR vContexto = ",
+              "        SELECTEDVALUE(tEixo[ID])",
+              "",
+              "VAR vReal_Fixo = ",
+              "        CALCULATE([AcumuladoREAL],REMOVEFILTERS(tEixo))",
+              "",
+              "VAR vAcumulado_Fixo = ",
+              "        CALCULATE([AcumuladoORC],REMOVEFILTERS(tEixo))",
+              "",
+              "VAR vResultado = ",
+              "        SWITCH(",
+              "                vContexto,",
+              "                13, vAcumulado_Fixo,",
+              "                15, vReal_Fixo",
+              "        )",
+              "",
+              "RETURN",
+              "    vResultado"
+            ],
+            "formatStringDefinition": {
+              "expression": [
+                "VAR vValor =",
+                "        SELECTEDMEASURE()",
+                "",
+                "RETURN",
+                "\"\"\"\" &",
+                "    SWITCH(",
+                "            TRUE(),",
+                "            ABS(vValor) >= 1E9, FORMAT(vValor, \"#,,,.00 B;-#,,,.0 B;-\"),",
+                "            ABS(vValor) >= 1E6, FORMAT(vValor, \"#,,.00 Mi;-#,,.0 Mi;-\"),",
+                "            ABS(vValor) >= 1E3, FORMAT(vValor, \"#,.00 K;-#,.0 K;-\"),",
+                "            FORMAT(vValor, \"#;-#;-\")",
+                "    )",
+                "&\"\"\"\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            "lineageTag": "f614ed96-663f-4254-a36d-14126a7fc8fc"
+          },
+          {
+            "name": "Linha H",
+            "expression": [
+              "",
+              "",
+              "VAR vContexto = ",
+              "        SELECTEDVALUE(tEixo[ID])",
+              "",
+              "VAR vReal_Fixo = ",
+              "        CALCULATE([AcumuladoREAL],REMOVEFILTERS(tEixo))",
+              "",
+              "VAR vAcumulado_Fixo = ",
+              "        CALCULATE([AcumuladoORC],REMOVEFILTERS(tEixo))",
+              "",
+              "VAR vMaior_valor = ",
+              "        MAX( vReal_Fixo, vAcumulado_Fixo )",
+              "",
+              "VAR vDeslocamento = 0.1",
+              "",
+              "VAR vResultado = ",
+              "        IF(",
+              "            vContexto > 12,",
+              "            vMaior_valor * vDeslocamento",
+              "        )",
+              "",
+              "RETURN",
+              "    vResultado"
+            ],
+            "formatString": "0",
+            "lineageTag": "d0dd6033-fb81-4363-8136-c736cb018b6c"
+          },
+          {
+            "name": "Linha V",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "",
+              "VAR vContexto = ",
+              "        SELECTEDVALUE(tEixo[ID])",
+              "",
+              "VAR vReal_Fixo = ",
+              "        CALCULATE([AcumuladoREAL],REMOVEFILTERS(tEixo))",
+              "",
+              "VAR vAcumulado_Fixo = ",
+              "        CALCULATE([AcumuladoORC],REMOVEFILTERS(tEixo))",
+              "",
+              "VAR vMaior_valor = ",
+              "        MAX( vReal_Fixo, vAcumulado_Fixo )",
+              "",
+              "VAR vDeslocamento = 1.1",
+              "",
+              "VAR vResultado = ",
+              "        IF(",
+              "            vContexto = 13 || vContexto = 15,",
+              "            vMaior_valor * vDeslocamento",
+              "        )",
+              "",
+              "RETURN",
+              "    vResultado"
+            ],
+            "lineageTag": "d33f31e7-9fdf-4e2c-b1cb-294359f88448"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tEixo",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "",
+                "VAR vMeses = ",
+                "    ALL(CALENDARIO[Mês Abreviado],CALENDARIO[Número do Mês])",
+                "",
+                "VAR vComplemento = ",
+                "    DATATABLE(",
+                "            \"X\", STRING,",
+                "            \"ID\", INTEGER,",
+                "            {",
+                "                {\"Orçado\",13},",
+                "                {\"\",14},",
+                "                {\"Realizado\",15}",
+                "            }",
+                "    )",
+                "",
+                "RETURN",
+                "    UNION(",
+                "        vComplemento,",
+                "        vMeses",
+                "        )"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_3a042f3c-093f-41c8-86e6-66a42eb72552",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "8177baf2-cbe6-422c-a2de-0d734343498d",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "8465433c-2cb8-4653-b15f-843edcf4153b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "54376148-ab76-4c9e-920e-ecbd5fc8ca8b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "6457a809-52e8-4a55-a890-a87e09e5cd45",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "ae9a6a24-63e2-47cc-8f47-a367fda421aa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "0e54802e-00d7-4a86-8d12-96c9d424a9f8",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "bfb87f85-46ec-4809-a9e8-be3e625bcddc",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "ab3ea985-b11b-4f62-ab22-534cf94d8380",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "4b1a71e0-87ac-4ea7-9c1c-05d37e728f52",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "1d9162ab-6574-4c1d-a9f2-3f01e1cc01c7",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "9f8326a8-d0a4-4e11-8164-b6fa359bb01b",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "bf46490a-9520-43ed-bdcb-d61acabd526a"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "fe775d02-6c3b-43c5-a7df-b950ab4b648e",
+        "partitions": [
+          {
+            "name": "LocalDateTable_3a042f3c-093f-41c8-86e6-66a42eb72552",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('CALENDARIO'[Date])), 1, 1), Date(Year(MAX('CALENDARIO'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Orçamento Controladoria - REF-Novembro-2024.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

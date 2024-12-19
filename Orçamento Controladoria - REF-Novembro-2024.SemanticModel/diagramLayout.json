@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "BASE_DADOS",
+          "nodeLineageTag": "0f3c3703-b293-4298-82e5-74fd13626707",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 375.2,
+            "y": 0
+          },
+          "nodeIndex": "CALENDARIO",
+          "nodeLineageTag": "c9cc59cd-90a5-48ca-ac72-0ef16965bcfa",
+          "size": {
+            "height": 280,
+            "width": 280
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 261.20000000000005,
+            "y": 360
+          },
+          "nodeIndex": "GR",
+          "nodeLineageTag": "20a480ff-111f-49cc-8564-c9c6d611c578",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 629.2,
+            "y": 333
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "8a2f2366-b174-4f6b-93b4-57b054d77dcc",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 732.2,
+            "y": 0
+          },
+          "nodeIndex": "tEixo",
+          "nodeLineageTag": "6c1813e7-532e-4f6c-a82d-7ce4e3b49d6f",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 5
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

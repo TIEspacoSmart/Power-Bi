@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Orçamento Controladoria - REF-Novembro-2024"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ff642133-f0d7-43fd-a894-198c36e339b4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Orçamento Controladoria - REF-Novembro-2024"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bb76a77d-d8f1-48cd-954f-7973566e5f00"
+  }
+}
